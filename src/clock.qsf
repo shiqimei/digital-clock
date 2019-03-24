@@ -1,0 +1,118 @@
+# Copyright (C) 1991-2005 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic       
+# functions, and any output files any of the foregoing           
+# (including device programming or simulation files), and any    
+# associated documentation or information are expressly subject  
+# to the terms and conditions of the Altera Program License      
+# Subscription Agreement, Altera MegaCore Function License       
+# Agreement, or other applicable license agreement, including,   
+# without limitation, that your use is for the sole purpose of   
+# programming logic devices manufactured by Altera and sold by   
+# Altera or its authorized distributors.  Please refer to the    
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		clock_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 5.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:03:13  FEBRUARY 26, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 5.0
+set_global_assignment -name BDF_FILE clock.bdf
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_4 -to Timer_K11_104
+set_location_assignment PIN_3 -to Timer_K10_3
+set_location_assignment PIN_4 -to Timer_K11_4
+set_location_assignment PIN_91 -to A2_K0_91
+set_location_assignment PIN_92 -to B2_K1_92
+set_location_assignment PIN_95 -to C2_K2_95
+set_location_assignment PIN_96 -to D2_K3_96
+set_location_assignment PIN_4 -to 1
+set_location_assignment PIN_5 -to 1HZ
+set_location_assignment PIN_72 -to 72
+set_location_assignment PIN_71 -to 71
+set_location_assignment PIN_70 -to 70
+set_location_assignment PIN_69 -to 69
+set_location_assignment PIN_76 -to 76
+set_location_assignment PIN_75 -to 75
+set_location_assignment PIN_74 -to 74
+set_location_assignment PIN_73 -to 73
+set_location_assignment PIN_4 -to high_1
+set_location_assignment PIN_36 -to 77
+set_location_assignment PIN_8 -to ACP
+set_location_assignment PIN_82 -to 82
+set_location_assignment PIN_47 -to 81
+set_location_assignment PIN_47 -to 80
+set_location_assignment PIN_41 -to 79
+set_location_assignment PIN_38 -to 78
+set_location_assignment PIN_27 -to 27
+set_location_assignment PIN_49 -to 49
+set_location_assignment PIN_47 -to 47
+set_location_assignment PIN_41 -to 41
+set_location_assignment PIN_38 -to 38
+set_location_assignment PIN_36 -to 36
+set_location_assignment PIN_33 -to 33
+set_location_assignment PIN_28 -to 28
+set_location_assignment PIN_89 -to 89
+set_location_assignment PIN_66 -to 66
+set_location_assignment PIN_67 -to 67
+set_location_assignment PIN_68 -to 68
+set_location_assignment PIN_57 -to 57
+set_location_assignment PIN_29 -to 29
+set_location_assignment PIN_34 -to 34
+set_location_assignment PIN_37 -to 37
+set_location_assignment PIN_39 -to 39
+set_location_assignment PIN_40 -to 40
+set_location_assignment PIN_42 -to 42
+set_location_assignment PIN_48 -to 48
+set_location_assignment PIN_50 -to 50
+set_location_assignment PIN_58 -to 58
+set_location_assignment PIN_61 -to 61
+set_location_assignment PIN_54 -to 54
+set_location_assignment PIN_17 -to 17
+set_location_assignment PIN_16 -to 16
+set_location_assignment PIN_12 -to 12
+set_location_assignment PIN_62 -to 62
+set_location_assignment PIN_64 -to 64
+set_location_assignment PIN_14 -to 14
+set_location_assignment PIN_15 -to 15
+set_location_assignment PIN_88 -to 88
+set_location_assignment PIN_87 -to 87
+set_location_assignment PIN_86 -to 86
+set_location_assignment PIN_85 -to 85
+set_location_assignment PIN_84 -to 84
+set_location_assignment PIN_83 -to 83
+set_location_assignment PIN_5 -to 5
+set_location_assignment PIN_95 -to 95
+set_location_assignment PIN_92 -to 92
+set_location_assignment PIN_91 -to 91
+set_location_assignment PIN_90 -to 90
+set_location_assignment PIN_26 -to 26
+set_location_assignment PIN_96 -to 96
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name TOP_LEVEL_ENTITY clock
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE EPM240T100C5
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS OUTPUT DRIVING GROUND"
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+# Assembler Assignments
+# =====================
+set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF

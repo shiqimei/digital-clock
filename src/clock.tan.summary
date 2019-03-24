@@ -1,0 +1,156 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 105.429 ns
+From           : 74193:ins11|25
+To             : 84
+From Clock     : ACP
+To Clock       : 
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.825 ns
+From           : 91
+To             : 69
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+Type           : Clock Setup: 'high_1'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.87 MHz ( period = 91.991 ns )
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : high_1
+To Clock       : high_1
+Failed Paths   : 0
+
+Type           : Clock Setup: '95'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.96 MHz ( period = 62.645 ns )
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 95
+To Clock       : 95
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ACP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.96 MHz ( period = 62.645 ns )
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : ACP
+To Clock       : ACP
+Failed Paths   : 0
+
+Type           : Clock Setup: '90'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.68 MHz ( period = 48.361 ns )
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 90
+To Clock       : 90
+Failed Paths   : 0
+
+Type           : Clock Setup: '91'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.59 MHz ( period = 37.610 ns )
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 91
+To Clock       : 91
+Failed Paths   : 0
+
+Type           : Clock Setup: '92'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 77.54 MHz ( period = 12.896 ns )
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 92
+To Clock       : 92
+Failed Paths   : 0
+
+Type           : Clock Hold: 'high_1'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : high_1
+To Clock       : high_1
+Failed Paths   : 21
+
+Type           : Clock Hold: 'ACP'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : ACP
+To Clock       : ACP
+Failed Paths   : 20
+
+Type           : Clock Hold: '95'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 95
+To Clock       : 95
+Failed Paths   : 20
+
+Type           : Clock Hold: '90'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 90
+To Clock       : 90
+Failed Paths   : 12
+
+Type           : Clock Hold: '91'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 91
+To Clock       : 91
+Failed Paths   : 12
+
+Type           : Clock Hold: '92'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74193:ins11|26
+To             : 74193:ins11|26
+From Clock     : 92
+To Clock       : 92
+Failed Paths   : 4
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 89
+
+--------------------------------------------------------------------------------------
+

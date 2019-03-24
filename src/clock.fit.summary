@@ -1,0 +1,12 @@
+Flow Status : Successful - Tue Mar 19 16:45:25 2019
+Quartus II Version : 5.0 Build 148 04/26/2005 SJ Full Version
+Revision Name : clock
+Top-level Entity Name : clock
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Met timing requirements : N/A
+Total logic elements : 103 / 240 ( 42 % )
+Total pins : 45 / 80 ( 56 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

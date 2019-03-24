@@ -1,0 +1,973 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--B4_24 is 74193:ins9|24
+--operation mode is normal
+
+B4_24_lut_out = !B4_24;
+B4_24 = DFFEAS(B4_24_lut_out, B4_92, !B4_87, , , , , , );
+
+
+--B4_26 is 74193:ins9|26
+--operation mode is normal
+
+B4_26_lut_out = !B4_26;
+B4_26 = DFFEAS(B4_26_lut_out, B4_94, !B4_87, , , , , , );
+
+
+--B4_25 is 74193:ins9|25
+--operation mode is normal
+
+B4_25_lut_out = !B4_25;
+B4_25 = DFFEAS(B4_25_lut_out, B4L9, !B4_87, , , , , , );
+
+
+--B4_23 is 74193:ins9|23
+--operation mode is normal
+
+B4_23_lut_out = !B4_23;
+B4_23 = DFFEAS(B4_23_lut_out, B4L7, !B4_87, , , , , , );
+
+
+--B3_26 is 74193:ins8|26
+--operation mode is normal
+
+B3_26_lut_out = !B3_26;
+B3_26 = DFFEAS(B3_26_lut_out, B3_94, !B3_86, , , , , , );
+
+
+--B3_25 is 74193:ins8|25
+--operation mode is normal
+
+B3_25_lut_out = !B3_25;
+B3_25 = DFFEAS(B3_25_lut_out, B3L01, !B3_86, , , , , , );
+
+
+--B3_24 is 74193:ins8|24
+--operation mode is normal
+
+B3_24_lut_out = !B3_24;
+B3_24 = DFFEAS(B3_24_lut_out, B3_92, !B3_86, , , , , , );
+
+
+--B3_23 is 74193:ins8|23
+--operation mode is normal
+
+B3_23_lut_out = !B3_23;
+B3_23 = DFFEAS(B3_23_lut_out, B3_91, !B3_86, , , , , , );
+
+
+--B2_23 is 74193:ins7|23
+--operation mode is normal
+
+B2_23_lut_out = !B2_23;
+B2_23 = DFFEAS(B2_23_lut_out, B2L7, !B2_88, , , , , , );
+
+
+--B2_24 is 74193:ins7|24
+--operation mode is normal
+
+B2_24_lut_out = !B2_24;
+B2_24 = DFFEAS(B2_24_lut_out, B2_92, !B2_88, , , , , , );
+
+
+--B2_25 is 74193:ins7|25
+--operation mode is normal
+
+B2_25_lut_out = !B2_25;
+B2_25 = DFFEAS(B2_25_lut_out, B2L9, !B2_88, , , , , , );
+
+
+--B2_26 is 74193:ins7|26
+--operation mode is normal
+
+B2_26_lut_out = !B2_26;
+B2_26 = DFFEAS(B2_26_lut_out, B2_94, !B2_88, , , , , , );
+
+
+--B1_23 is 74193:ins6|23
+--operation mode is normal
+
+B1_23_lut_out = !B1_23;
+B1_23 = DFFEAS(B1_23_lut_out, B1_91, !B1_87, , , , , , );
+
+
+--B1_24 is 74193:ins6|24
+--operation mode is normal
+
+B1_24_lut_out = !B1_24;
+B1_24 = DFFEAS(B1_24_lut_out, B1_92, !B1_87, , , , , , );
+
+
+--B1_25 is 74193:ins6|25
+--operation mode is normal
+
+B1_25_lut_out = !B1_25;
+B1_25 = DFFEAS(B1_25_lut_out, B1L01, !B1_87, , , , , , );
+
+
+--B1_26 is 74193:ins6|26
+--operation mode is normal
+
+B1_26_lut_out = !B1_26;
+B1_26 = DFFEAS(B1_26_lut_out, B1_94, !B1_87, , , , , , );
+
+
+--B5_26 is 74193:ins10|26
+--operation mode is normal
+
+B5_26_lut_out = !B5_26;
+B5_26 = DFFEAS(B5_26_lut_out, B5_94, !B5_86, , , , , , );
+
+
+--B5_24 is 74193:ins10|24
+--operation mode is normal
+
+B5_24_lut_out = !B5_24;
+B5_24 = DFFEAS(B5_24_lut_out, B5_92, !B5_86, , , , , , );
+
+
+--B5_25 is 74193:ins10|25
+--operation mode is normal
+
+B5_25_lut_out = !B5_25;
+B5_25 = DFFEAS(B5_25_lut_out, B5L01, !B5_86, , , , , , );
+
+
+--B5_23 is 74193:ins10|23
+--operation mode is normal
+
+B5_23_lut_out = !B5_23;
+B5_23 = DFFEAS(B5_23_lut_out, B5_91, !B5_86, , , , , , );
+
+
+--C1_72 is 7448:inst|72
+--operation mode is normal
+
+C1_72 = B5_24 & B5_26 & B5_25 # !B5_24 & (!B5_25 & !B5_23);
+
+
+--C1L1 is 7448:inst|66~41
+--operation mode is normal
+
+C1L1 = B5_25 & (B5_26 # !B5_24) # !B5_25 & B5_26 & !B5_23 & !B5_24;
+
+
+--C1_71 is 7448:inst|71
+--operation mode is normal
+
+C1_71 = B5_26 # B5_24 & (!B5_25);
+
+
+--C1L2 is 7448:inst|67~39
+--operation mode is normal
+
+C1L2 = B5_24 & (B5_26 $ !B5_25) # !B5_24 & B5_26 & !B5_25;
+
+
+--C1_70 is 7448:inst|70
+--operation mode is normal
+
+C1_70 = B5_24 & B5_23 # !B5_24 & (B5_25 & !B5_26);
+
+
+--C1L3 is 7448:inst|68~42
+--operation mode is normal
+
+C1L3 = B5_25 & (B5_23 # B5_24 & !B5_26) # !B5_25 & (B5_24 & B5_26);
+
+
+--C1L4 is 7448:inst|69~7
+--operation mode is normal
+
+C1L4 = B5_25 & (B5_23 # B5_24 & !B5_26) # !B5_25 & (B5_24 & (!B5_26) # !B5_24 & !B5_23 & B5_26);
+
+
+--B6_25 is 74193:ins11|25
+--operation mode is normal
+
+B6_25_lut_out = VCC;
+B6_25 = DFFEAS(B6_25_lut_out, B6L9, !B6_88, , , , , , );
+
+
+--B6_23 is 74193:ins11|23
+--operation mode is normal
+
+B6_23_lut_out = !B6_23;
+B6_23 = DFFEAS(B6_23_lut_out, B6L7, !B6_88, , , , , , );
+
+
+--B6_24 is 74193:ins11|24
+--operation mode is normal
+
+B6_24_lut_out = !B6_24;
+B6_24 = DFFEAS(B6_24_lut_out, B6_92, !B6_88, , , , , , );
+
+
+--B6_26 is 74193:ins11|26
+--operation mode is normal
+
+B6_26_lut_out = !B6_26;
+B6_26 = DFFEAS(B6_26_lut_out, B6_94, !B6_88, , , , , , );
+
+
+--C2L5 is 7448:inst4|69~7
+--operation mode is normal
+
+C2L5 = B6_25 & (B6_23 # B6_24 & !B6_26) # !B6_25 & (B6_24 & (!B6_26) # !B6_24 & !B6_23 & B6_26);
+
+
+--C2L4 is 7448:inst4|68~42
+--operation mode is normal
+
+C2L4 = B6_25 & (B6_23 # B6_24 & !B6_26) # !B6_25 & (B6_24 & B6_26);
+
+
+--C2_70 is 7448:inst4|70
+--operation mode is normal
+
+C2_70 = B6_24 & B6_23 # !B6_24 & (B6_25 & !B6_26);
+
+
+--C2L3 is 7448:inst4|67~70
+--operation mode is normal
+
+C2L3 = B6_26 & (B6_24 $ !B6_25) # !B6_26 & B6_24 & !B6_25;
+
+
+--C2_71 is 7448:inst4|71
+--operation mode is normal
+
+C2_71 = B6_26 # B6_24 & (!B6_25);
+
+
+--C2L2 is 7448:inst4|66~41
+--operation mode is normal
+
+C2L2 = B6_25 & (B6_26 # !B6_24) # !B6_25 & B6_26 & !B6_23 & !B6_24;
+
+
+--C2_72 is 7448:inst4|72
+--operation mode is normal
+
+C2_72 = B6_25 & B6_26 & B6_24 # !B6_25 & (!B6_24 & !B6_23);
+
+
+--A1L45 is inst43~22
+--operation mode is normal
+
+A1L45 = 91 # 5 # 92 # !95;
+
+
+--A1L35 is inst42~13
+--operation mode is normal
+
+A1L35 = 92 # 95 & 5 # !95 & (!91);
+
+
+--A1L25 is inst40~13
+--operation mode is normal
+
+A1L25 = 91 # 95 & 5 # !95 & (!92);
+
+
+--D3_39 is 74194:inst49|39
+--operation mode is normal
+
+D3_39_lut_out = B1_24;
+D3_39 = DFFEAS(D3_39_lut_out, pin_name, VCC, , , , , , );
+
+
+--D2_38 is 74194:inst48|38
+--operation mode is normal
+
+D2_38_lut_out = B2_23;
+D2_38 = DFFEAS(D2_38_lut_out, pin_name, VCC, , , , , , );
+
+
+--A1L75 is inst57~76
+--operation mode is normal
+
+A1L75 = B2_23 & D2_38 & (B1_24 $ !D3_39) # !B2_23 & !D2_38 & (B1_24 $ !D3_39);
+
+
+--D3_41 is 74194:inst49|41
+--operation mode is normal
+
+D3_41_lut_out = B1_26;
+D3_41 = DFFEAS(D3_41_lut_out, pin_name, VCC, , , , , , );
+
+
+--D2_41 is 74194:inst48|41
+--operation mode is normal
+
+D2_41_lut_out = B2_26;
+D2_41 = DFFEAS(D2_41_lut_out, pin_name, VCC, , , , , , );
+
+
+--A1L85 is inst57~77
+--operation mode is normal
+
+A1L85 = B2_26 & D2_41 & (B1_26 $ !D3_41) # !B2_26 & !D2_41 & (B1_26 $ !D3_41);
+
+
+--D2_39 is 74194:inst48|39
+--operation mode is normal
+
+D2_39_lut_out = B2_24;
+D2_39 = DFFEAS(D2_39_lut_out, pin_name, VCC, , , , , , );
+
+
+--D1_41 is 74194:inst47|41
+--operation mode is normal
+
+D1_41_lut_out = B3_26;
+D1_41 = DFFEAS(D1_41_lut_out, pin_name, VCC, , , , , , );
+
+
+--A1L95 is inst57~78
+--operation mode is normal
+
+A1L95 = B3_26 & D1_41 & (B2_24 $ !D2_39) # !B3_26 & !D1_41 & (B2_24 $ !D2_39);
+
+
+--D2_40 is 74194:inst48|40
+--operation mode is normal
+
+D2_40_lut_out = B2_25;
+D2_40 = DFFEAS(D2_40_lut_out, pin_name, VCC, , , , , , );
+
+
+--D1_39 is 74194:inst47|39
+--operation mode is normal
+
+D1_39_lut_out = B3_24;
+D1_39 = DFFEAS(D1_39_lut_out, pin_name, VCC, , , , , , );
+
+
+--A1L06 is inst57~79
+--operation mode is normal
+
+A1L06 = B3_24 & D1_39 & (B2_25 $ !D2_40) # !B3_24 & !D1_39 & (B2_25 $ !D2_40);
+
+
+--A1L16 is inst57~80
+--operation mode is normal
+
+A1L16 = A1L75 & A1L85 & A1L95 & A1L06;
+
+
+--D3_38 is 74194:inst49|38
+--operation mode is normal
+
+D3_38_lut_out = B1_23;
+D3_38 = DFFEAS(D3_38_lut_out, pin_name, VCC, , , , , , );
+
+
+--D1_40 is 74194:inst47|40
+--operation mode is normal
+
+D1_40_lut_out = B3_25;
+D1_40 = DFFEAS(D1_40_lut_out, pin_name, VCC, , , , , , );
+
+
+--A1L26 is inst57~81
+--operation mode is normal
+
+A1L26 = B3_25 & D1_40 & (B1_23 $ !D3_38) # !B3_25 & !D1_40 & (B1_23 $ !D3_38);
+
+
+--D3_40 is 74194:inst49|40
+--operation mode is normal
+
+D3_40_lut_out = B1_25;
+D3_40 = DFFEAS(D3_40_lut_out, pin_name, VCC, , , , , , );
+
+
+--D1_38 is 74194:inst47|38
+--operation mode is normal
+
+D1_38_lut_out = B3_23;
+D1_38 = DFFEAS(D1_38_lut_out, pin_name, VCC, , , , , , );
+
+
+--A1L36 is inst57~82
+--operation mode is normal
+
+A1L36 = B3_23 & D1_38 & (B1_25 $ !D3_40) # !B3_23 & !D1_38 & (B1_25 $ !D3_40);
+
+
+--inst57 is inst57
+--operation mode is normal
+
+inst57 = A1L16 & A1L26 & A1L36;
+
+
+--A1L74 is inst15~31
+--operation mode is normal
+
+A1L74 = B3_26 # B3_24 # !B3_23 # !B3_25;
+
+
+--A1L64 is inst10~29
+--operation mode is normal
+
+A1L64 = B4_24 & B4_25 & !B4_26 & !B4_23;
+
+
+--B4_87 is 74193:ins9|87
+--operation mode is normal
+
+B4_87 = A1L64 # !high_1;
+
+
+--B4_94 is 74193:ins9|94
+--operation mode is normal
+
+B4_94 = !A1L74 & (high_1);
+
+
+--B4L9 is 74193:ins9|93~48
+--operation mode is normal
+
+B4L9 = B4_26 & !A1L74 # !B4_26 & (high_1);
+
+
+--A1L84 is inst18~30
+--operation mode is normal
+
+A1L84 = B2_24 & B2_25 & !B2_23 & !B2_26;
+
+
+--B3_94 is 74193:ins8|94
+--operation mode is normal
+
+B3_94 = high_1 & (A1L84 # 91 & 90);
+
+
+--B3_86 is 74193:ins8|86
+--operation mode is normal
+
+B3_86 = !A1L74 # !high_1;
+
+
+--inst37 is inst37
+--operation mode is normal
+
+inst37 = 91 & 90;
+
+
+--B3L01 is 74193:ins8|93~38
+--operation mode is normal
+
+B3L01 = B3_26 & (inst37 # A1L84) # !B3_26 & high_1;
+
+
+--B3L5 is 74193:ins8|50~14
+--operation mode is normal
+
+B3L5 = !B3_26 & !B3_25 & !high_1;
+
+
+--B3L6 is 74193:ins8|51~37
+--operation mode is normal
+
+B3L6 = B3_26 & B3_25 & !inst37 & !A1L84;
+
+
+--B3_91 is 74193:ins8|91
+--operation mode is normal
+
+B3_91 = B3_24 & !B3L6 # !B3_24 & (!B3L5);
+
+
+--A1L94 is inst21~31
+--operation mode is normal
+
+A1L94 = B1_24 # B1_26 # !B1_25 # !B1_23;
+
+
+--B2_88 is 74193:ins7|88
+--operation mode is normal
+
+B2_88 = A1L84 # !high_1;
+
+
+--B2L9 is 74193:ins7|93~48
+--operation mode is normal
+
+B2L9 = B2_26 & !A1L94 # !B2_26 & (high_1);
+
+
+--B2_94 is 74193:ins7|94
+--operation mode is normal
+
+B2_94 = !A1L94 & (high_1);
+
+
+--B1L8 is 74193:ins6|93~40
+--operation mode is normal
+
+B1L8 = B1_26 & (95 # !ACP);
+
+
+--B1L9 is 74193:ins6|93~41
+--operation mode is normal
+
+B1L9 = !B1_26 & !high_1;
+
+
+--B1_91 is 74193:ins6|91
+--operation mode is normal
+
+B1_91 = B1_24 & (!B1_25 # !B1L8) # !B1_24 & (B1_25 # !B1L9);
+
+
+--B1_87 is 74193:ins6|87
+--operation mode is normal
+
+B1_87 = !A1L94 # !high_1;
+
+
+--B1L01 is 74193:ins6|93~42
+--operation mode is normal
+
+B1L01 = B1_26 & !95 & ACP # !B1_26 & (high_1);
+
+
+--B1_94 is 74193:ins6|94
+--operation mode is normal
+
+B1_94 = !95 & (high_1 & ACP);
+
+
+--B5_94 is 74193:ins10|94
+--operation mode is normal
+
+B5_94 = high_1 & (A1L64 # 92 & 90);
+
+
+--B5L6 is 74193:ins10|51~30
+--operation mode is normal
+
+B5L6 = B5_25 & B5_26;
+
+
+--A1L54 is inst5~14
+--operation mode is normal
+
+A1L54 = B5_25 & (!B5_24 & !B5_26);
+
+
+--C2L1 is 7448:inst4|39~4
+--operation mode is normal
+
+C2L1 = B6_26 & !B6_25 & !B6_23 & !B6_24;
+
+
+--inst26 is inst26
+--operation mode is normal
+
+inst26 = B5L6 & (C2L1 # B5_23 & A1L54) # !B5L6 & B5_23 & A1L54;
+
+
+--B5_86 is 74193:ins10|86
+--operation mode is normal
+
+B5_86 = inst26 # !high_1;
+
+
+--B5L5 is 74193:ins10|50~14
+--operation mode is normal
+
+B5L5 = !B5_25 & !B5_26 & !high_1;
+
+
+--inst45 is inst45
+--operation mode is normal
+
+inst45 = A1L64 # 92 & 90;
+
+
+--B5L01 is 74193:ins10|93~38
+--operation mode is normal
+
+B5L01 = B5_26 & inst45 # !B5_26 & (high_1);
+
+
+--B5_91 is 74193:ins10|91
+--operation mode is normal
+
+B5_91 = B5_24 & (inst45 # !B5L6) # !B5_24 & !B5L5;
+
+
+--B6L9 is 74193:ins11|93~38
+--operation mode is normal
+
+B6L9 = B6_26 & inst26 # !B6_26 & (high_1);
+
+
+--B6_88 is 74193:ins11|88
+--operation mode is normal
+
+B6_88 = B6_25 # !high_1;
+
+
+--B6_94 is 74193:ins11|94
+--operation mode is normal
+
+B6_94 = high_1 & inst26;
+
+
+--B4_92 is 74193:ins9|92
+--operation mode is normal
+
+B4_92 = B4_26 & (!B4_25 # !A1L74) # !B4_26 & (high_1 # B4_25);
+
+
+--B3_92 is 74193:ins8|92
+--operation mode is normal
+
+B3_92 = !B3L6 & (B3_26 # B3_25 # high_1);
+
+
+--B2_92 is 74193:ins7|92
+--operation mode is normal
+
+B2_92 = B2_26 & (!B2_25 # !A1L94) # !B2_26 & (high_1 # B2_25);
+
+
+--B1_92 is 74193:ins6|92
+--operation mode is normal
+
+B1_92 = B1_25 & (!B1L8) # !B1_25 & (B1_26 # high_1);
+
+
+--B5_92 is 74193:ins10|92
+--operation mode is normal
+
+B5_92 = B5_25 & (inst45 # !B5_26) # !B5_25 & (B5_26 # high_1);
+
+
+--B6_92 is 74193:ins11|92
+--operation mode is normal
+
+B6_92 = B6_26 & (inst26 # !B6_25) # !B6_26 & (B6_25 # high_1);
+
+
+--B6L6 is 74193:ins11|91~22
+--operation mode is normal
+
+B6L6 = B6_25 & (!inst26 & B6_24) # !B6_25 & !high_1 & (!B6_24);
+
+
+--B6L7 is 74193:ins11|91~23
+--operation mode is normal
+
+B6L7 = B6_25 & (!B6_26) # !B6_25 & (high_1 # B6_26) # !B6L6;
+
+
+--B2L6 is 74193:ins7|91~22
+--operation mode is normal
+
+B2L6 = B2_26 & (B2_25 & B2_24) # !B2_26 & !high_1 & !B2_25 & !B2_24;
+
+
+--B2L7 is 74193:ins7|91~23
+--operation mode is normal
+
+B2L7 = B2_26 & (!A1L94) # !B2_26 & high_1 # !B2L6;
+
+
+--B4L6 is 74193:ins9|91~22
+--operation mode is normal
+
+B4L6 = B4_26 & (B4_25 & B4_24) # !B4_26 & !high_1 & !B4_25 & !B4_24;
+
+
+--B4L7 is 74193:ins9|91~23
+--operation mode is normal
+
+B4L7 = B4_26 & (!A1L74) # !B4_26 & high_1 # !B4L6;
+
+
+--91 is 91
+--operation mode is input
+
+91 = INPUT();
+
+
+--5 is 5
+--operation mode is input
+
+5 = INPUT();
+
+
+--92 is 92
+--operation mode is input
+
+92 = INPUT();
+
+
+--95 is 95
+--operation mode is input
+
+95 = INPUT();
+
+
+--high_1 is high_1
+--operation mode is input
+
+high_1 = INPUT();
+
+
+--90 is 90
+--operation mode is input
+
+90 = INPUT();
+
+
+--ACP is ACP
+--operation mode is input
+
+ACP = INPUT();
+
+
+--pin_name is pin_name
+--operation mode is input
+
+pin_name = INPUT();
+
+
+--47 is 47
+--operation mode is output
+
+47 = OUTPUT(B4_24);
+
+
+--27 is 27
+--operation mode is output
+
+27 = OUTPUT(B4_26);
+
+
+--49 is 49
+--operation mode is output
+
+49 = OUTPUT(B4_25);
+
+
+--41 is 41
+--operation mode is output
+
+41 = OUTPUT(B4_23);
+
+
+--38 is 38
+--operation mode is output
+
+38 = OUTPUT(B3_26);
+
+
+--36 is 36
+--operation mode is output
+
+36 = OUTPUT(B3_25);
+
+
+--33 is 33
+--operation mode is output
+
+33 = OUTPUT(B3_24);
+
+
+--28 is 28
+--operation mode is output
+
+28 = OUTPUT(B3_23);
+
+
+--29 is 29
+--operation mode is output
+
+29 = OUTPUT(B2_23);
+
+
+--34 is 34
+--operation mode is output
+
+34 = OUTPUT(B2_24);
+
+
+--37 is 37
+--operation mode is output
+
+37 = OUTPUT(B2_25);
+
+
+--39 is 39
+--operation mode is output
+
+39 = OUTPUT(B2_26);
+
+
+--40 is 40
+--operation mode is output
+
+40 = OUTPUT(B1_23);
+
+
+--42 is 42
+--operation mode is output
+
+42 = OUTPUT(B1_24);
+
+
+--48 is 48
+--operation mode is output
+
+48 = OUTPUT(B1_25);
+
+
+--50 is 50
+--operation mode is output
+
+50 = OUTPUT(B1_26);
+
+
+--66 is 66
+--operation mode is output
+
+66 = OUTPUT(!C1_72);
+
+
+--67 is 67
+--operation mode is output
+
+67 = OUTPUT(!C1L1);
+
+
+--68 is 68
+--operation mode is output
+
+68 = OUTPUT(!C1_71);
+
+
+--57 is 57
+--operation mode is output
+
+57 = OUTPUT(!C1L2);
+
+
+--58 is 58
+--operation mode is output
+
+58 = OUTPUT(!C1_70);
+
+
+--61 is 61
+--operation mode is output
+
+61 = OUTPUT(!C1L3);
+
+
+--54 is 54
+--operation mode is output
+
+54 = OUTPUT(!C1L4);
+
+
+--88 is 88
+--operation mode is output
+
+88 = OUTPUT(!C2L5);
+
+
+--87 is 87
+--operation mode is output
+
+87 = OUTPUT(!C2L4);
+
+
+--86 is 86
+--operation mode is output
+
+86 = OUTPUT(!C2_70);
+
+
+--85 is 85
+--operation mode is output
+
+85 = OUTPUT(!C2L3);
+
+
+--84 is 84
+--operation mode is output
+
+84 = OUTPUT(!C2_71);
+
+
+--83 is 83
+--operation mode is output
+
+83 = OUTPUT(!C2L2);
+
+
+--82 is 82
+--operation mode is output
+
+82 = OUTPUT(!C2_72);
+
+
+--69 is 69
+--operation mode is output
+
+69 = OUTPUT(!A1L45);
+
+
+--70 is 70
+--operation mode is output
+
+70 = OUTPUT(!A1L45);
+
+
+--71 is 71
+--operation mode is output
+
+71 = OUTPUT(!A1L35);
+
+
+--72 is 72
+--operation mode is output
+
+72 = OUTPUT(!A1L35);
+
+
+--73 is 73
+--operation mode is output
+
+73 = OUTPUT(!A1L25);
+
+
+--74 is 74
+--operation mode is output
+
+74 = OUTPUT(!A1L25);
+
+
+--26 is 26
+--operation mode is output
+
+26 = OUTPUT(inst57);
+
+

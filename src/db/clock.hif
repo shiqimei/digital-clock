@@ -1,0 +1,195 @@
+Version 5.0 Build 148 04/26/2005 SJ Full Version
+33
+1653
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+VRSM_ON
+VHSM_ON
+0
+# entity
+74193
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|quartus50|libraries|others|maxplus2|74193.bdf
+1107571926
+23
+# storage
+db|clock.(1).cnf
+db|clock.(1).cnf
+# hierarchies {
+74193:ins9
+74193:ins8
+74193:ins7
+74193:ins6
+74193:ins10
+74193:ins11
+}
+# end
+# entity
+7448
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|quartus50|libraries|others|maxplus2|7448.bdf
+1107574826
+23
+# storage
+db|clock.(2).cnf
+db|clock.(2).cnf
+# hierarchies {
+7448:inst
+7448:inst4
+}
+# end
+# entity
+7485
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|quartus50|libraries|others|maxplus2|7485.tdf
+1107577242
+6
+# storage
+db|clock.(3).cnf
+db|clock.(3).cnf
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+A0
+A1
+A2
+A3
+AGBO
+B0
+B1
+B2
+B3
+}
+# include_file {
+..|..|..|..|..|altera|quartus50|libraries|megafunctions|aglobal.inc
+1114012420
+}
+# end
+# entity
+f7485
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|quartus50|libraries|others|maxplus2|f7485.bdf
+1107578612
+23
+# storage
+db|clock.(4).cnf
+db|clock.(4).cnf
+# hierarchies {
+7485:inst51|f7485:sub
+7485:inst52|f7485:sub
+7485:inst55|f7485:sub
+}
+# end
+# entity
+74194
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|quartus50|libraries|others|maxplus2|74194.bdf
+1107571954
+23
+# storage
+db|clock.(5).cnf
+db|clock.(5).cnf
+# hierarchies {
+74194:inst47
+74194:inst48
+74194:inst49
+}
+# end
+# entity
+7485
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|quartus50|libraries|others|maxplus2|7485.tdf
+1107577242
+6
+# storage
+db|clock.(6).cnf
+db|clock.(6).cnf
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+A0
+A1
+A2
+A3
+AEBO
+B0
+B1
+B2
+B3
+}
+# include_file {
+..|..|..|..|..|altera|quartus50|libraries|megafunctions|aglobal.inc
+1114012420
+}
+# hierarchies {
+7485:inst51
+7485:inst52
+7485:inst55
+}
+# end
+# entity
+clock
+# case_insensitive
+# source_file
+clock.bdf
+1552985120
+23
+# storage
+db|clock.(0).cnf
+db|clock.(0).cnf
+# hierarchies {
+|
+}
+# end
+# complete
+
