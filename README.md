@@ -13,7 +13,7 @@
 
 
 ## 文档
-详细文档请参考 [docs/E21714049_梅世祺_数字逻辑课程设计报告.pdf](./docs)
+详细文档请参考 [docs/E21714049_梅世祺_数字逻辑课程设计报告.pdf](https://github.com/lolimay/digital-clock/blob/master/docs/E21714049_%E6%A2%85%E4%B8%96%E7%A5%BA_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A.pdf)
 
 # 开源协议
 This project is under License MIT.
